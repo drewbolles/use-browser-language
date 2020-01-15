@@ -1,0 +1,39 @@
+{
+  "name": "use-browser-language",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --out-file index.js src/index.ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewbolles/use-browser-language.git"
+  },
+  "author": "drewbolles@gmail.com",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/drewbolles/use-browser-language/issues"
+  },
+  "homepage": "https://github.com/drewbolles/use-browser-language#readme",
+  "description": "React hook to read the users' language from their browser",
+  "dependencies": {
+    "detect-browser-language": "0.0.2",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3"
+  },
+  "browserslist": [
+    "> 0.25%",
+    "not dead"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.MD"
+  ]
+}
