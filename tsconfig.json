@@ -1,6 +1,10 @@
 {
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
-  "outDir": "./",
-  "lib": "ESNext"
+  "compilerOptions": {
+    "outDir": "./",
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "target": "ES5"
+  }
 }
